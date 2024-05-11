@@ -1,39 +1,25 @@
-import React from "react";
+import React from 'react'
+import Testimonial from '../component/test'
 
-function Home() {
+const testimonial = () => {
   return (
     <div className="bg-sky-700 h-full text-white">
-      <div className="flex sm:flex-row flex-col justify-self-center pt-10 pl-2">
-        <img
-          className="mt-8 sm:mr-0 ml-6 h-36 w-36 rounded-full"
-          alt="profilepic"
-          src="/image.jpg"
-        />
-
+      <div className="flex flex-row justify-self-center pt-10 pl-2">
         <div class="p-6">
-          <h1 class="text-2xl font-bold mb-2">Iman Fatima</h1>
-          <h2 class="text-xl font-semibold mb-4">Full Stack Developer</h2>
-          <p class="text-base">
-            I am a wb developer with 3months of experience in React. I have a 
-            passion for creating user-friendly and interactive web applications. My goal is to make the world a better place through code. Feel free
-            passion for creating user-friendly applications and websites that are easy to navigate. My goal is to make the web more accessible, intuitive
-            strong background in web development.
-          </p>
+          <h2 class="text-2xl font-bold mb-4">Testimonial</h2>
         </div>
       </div>
 
+<Testimonial/>
       <div class="flex flex-col items-center justify-center mt-16">
         <h2 class="text-xl font-semibold mb-4">
           Let us create awesome products!
         </h2>
         <p class="text-base text-center">
-            I am always  open to collaborate on new projects or contribute to existing ones.<br/> Feel free to reach out and
+        I am always  open to collaborate on new projects or contribute to existing ones.<br/> Feel free to reach out and
           Feel free to contact me if you need any help or want <br /> to collaborate on an  interesting project.
-          <br/>
-          <br/>
-          <br/>
-          <br/>
         </p>
+    
       </div>
 
       <div className="flex flex-col items-center justify-center border-t-2 border-b-2 bg-sky-900 mt-8 border-white">
@@ -51,6 +37,7 @@ function Home() {
               />{" "}
             </a>
           </div>
+         
           <div className="flex">
             LinkedIn{" "}
             <a href="https://www.linkedin.com/in/iman-fatima-756bb5278/" class="px-2">
@@ -62,13 +49,15 @@ function Home() {
               />{" "}
             </a>
           </div>
+         
         </div>
       </div>
       <div className="bg-sky-900 p-2 pl-8">
         <text>© 2024 imanfatima All rights reserved.</text>
       </div>
     </div>
-  );
+
+  )
 }
 
-export default Home;
+export default testimonial

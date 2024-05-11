@@ -46,6 +46,9 @@ const ArticlesListPage = () => {
       I am always  open to collaborate on new projects or contribute to existing ones.<br/> Feel free to reach out and
           Feel free to contact me if you need any help or want <br /> to collaborate on an  interesting project.
       </p>
+      <br/>
+      <br/>
+      <br/>
     </div>
 
     <div className="flex flex-col items-center justify-center border-t-2 border-b-2 bg-sky-900 mt-8 border-white">
@@ -79,7 +82,7 @@ const ArticlesListPage = () => {
       </div>
     </div>
     <div className="bg-sky-900 p-2 pl-8">
-      <text>© 2024 aribamemon All rights reserved.</text>
+      <text>© 2024 imanfatima All rights reserved.</text>
     </div>
     </div>
   );

@@ -58,7 +58,7 @@ const ArticlePage = () => {
         </div>
       </div>
       <div className="bg-sky-900 p-2 pl-8">
-        <text>© 2024 aribamemon All rights reserved.</text>
+        <text>© 2024 imanfatima All rights reserved.</text>
       </div>
     </div>
     );

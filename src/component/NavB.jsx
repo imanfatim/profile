@@ -17,7 +17,7 @@ export default function Header() {
           <Link to="/">
             <img
               className="w-16 h-16 rounded-full"
-              src="/logoname.png"
+              src="/image.jpg"
               alt="Logo"
             />
 
@@ -36,6 +36,12 @@ export default function Header() {
               </li>
               <li className="border-b border-transparent ml-10 text-sm uppercase hover:border-b hover:border-gray">
                 <Link to={"/projects"}>Projects</Link>
+              </li>
+              <li className="border-b border-transparent ml-10 text-sm uppercase hover:border-b hover:border-gray">
+                <Link to={"/certificates"}>Certificates</Link>
+              </li>
+              <li className="border-b border-transparent ml-10 text-sm uppercase hover:border-b hover:border-gray">
+                <Link to={"/testimonial"}>Testimonial</Link>
               </li>
               <li className="border-b border-transparent ml-10 text-sm uppercase hover:border-b hover:border-gray">
                 <button className="bg-white rounded-2xl text-black w-16 h-8"><Link to={"/skills"}>Skills</Link></button>
@@ -80,6 +86,12 @@ export default function Header() {
               </li>
               <li className="py-4 text-white">
                 <Link to={"/projects"}>Projects</Link>
+              </li>
+              <li className="py-4 text-white">
+                <Link to={"/certificates"}>Certificates</Link>
+              </li>
+              <li className="py-4 text-white">
+                <Link to={"/testimonial"}>Testimonial</Link>
               </li>
               <li className="py-4 text-white">
                 <Link to={"/skills"}>Skills</Link>

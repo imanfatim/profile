@@ -9,7 +9,8 @@ import Projects from './pages/Pro';
 import Navbar from './component/NavB';
 import Botnet from './component/Botnet';
 import Skills from './pages/skills';
-
+import Certificate from './pages/certificates';
+import Testimonial from './pages/testimonial'
 function App() {
   return (
 <BrowserRouter>
@@ -17,12 +18,15 @@ function App() {
 
 <Botnet/>
 <Routes>
+  
 
 <Route path='/' element={<Home/>} />
 <Route path='/about' element={<About/>} />
 <Route path="/experience" element={<Experience />} />
  <Route path="/projects" element={<Projects />} />
  <Route path="/skills" element={<Skills />} />
+ <Route path="/certificates" element={<Certificate />} />
+ <Route path="/testimonial" element={<Testimonial/>}/>
 </Routes>
 </BrowserRouter>
   );
